@@ -1,6 +1,6 @@
 {
   "name": "z407-web",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Web Bluetooth controller and Node.js SDK for Logitech Z407 speakers.",
   "type": "module",
   "main": "./dist/index.js",
