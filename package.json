@@ -1,0 +1,36 @@
+{
+  "name": "z407-web",
+  "version": "0.1.0",
+  "description": "Web Bluetooth controller and Node.js SDK for Logitech Z407 speakers.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "keywords": [
+    "bluetooth",
+    "ble",
+    "logitech",
+    "z407",
+    "web-bluetooth",
+    "node-ble"
+  ],
+  "author": "calebg",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@types/web-bluetooth": "^0.0.21",
+    "tsup": "^8.5.1",
+    "typescript": "^5.7.3"
+  }
+}
