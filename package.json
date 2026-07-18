@@ -25,7 +25,7 @@
     "web-bluetooth",
     "node-ble"
   ],
-  "author": "calebg",
+  "author": "calebg <caleb_goodnite@proton.me>",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^26.1.1",

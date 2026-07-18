@@ -36,8 +36,8 @@ declare class Z407 {
 }
 
 declare const SERVICE_UUID = "0000fdc2-0000-1000-8000-00805f9b34fb";
-declare const COMMAND_UUID = "c2e758b9-0e78-41e0-b0cb-98a593193fc5";
-declare const RESPONSE_UUID = "b84ac9c6-29c5-46d4-bba1-9d534784330f";
+declare const COMMAND_UUID = "c2e758b9-0e78-4395-8854-1234567890ab";
+declare const RESPONSE_UUID = "b84ac9c6-29c5-4089-8d69-3224719000ab";
 declare const BATTERY_SERVICE_UUID = "0000180f-0000-1000-8000-00805f9b34fb";
 declare const BATTERY_LEVEL_UUID = "00002a19-0000-1000-8000-00805f9b34fb";
 declare const COMMANDS: Readonly<{
